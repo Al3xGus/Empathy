@@ -328,6 +328,10 @@ max-width: 535px;
     display: flex;
     justify-content: space-between;
 }
+.knw_img a{
+    display: inline-block;
+    max-width: 144px;
+}
 .full_library{
     display: flex;
     align-items: center;
