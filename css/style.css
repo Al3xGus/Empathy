@@ -441,3 +441,56 @@ max-width: 535px;
     line-height: 24px; /* 160% */
     padding-top: 32px;
 }
+.faq{
+    padding: 100px;
+    background-color: #FFFFFF;
+}
+.faq h2{
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    font-style: normal;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background-color: white;
+    border: solid 2px black;
+    padding: 15px 34px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25;
+    text-align: start;
+    color: #242424;
+    position: relative;
+}
+.faq .ui-accordion .ui-accordion-header .ui-state-active{
+    color: black;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #f8f3db;
+}
+.faq .ui-accordion .ui-widget-content{
+    border: solid 2px black;
+    border-top: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f8f3db;
+    padding-bottom: 15px;
+    height: auto !important;
+}
+.faq .ui-accordion .ui-icon{
+    background-image: none;
+    display: block !important;
+    content: url("../images/arrow.svg");
+    width: 32px;
+    height: 32px;
+    right: 30px;
+    position: absolute;
+}
+.faq .ui-accordion .ui-state-active .ui-icon{
+    transform: rotate(-180deg);
+    transition: 0.3s;
+}
