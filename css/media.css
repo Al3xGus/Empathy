@@ -1,0 +1,173 @@
+@media screen and (max-width: 1183px) {
+.seen_img{
+        flex-wrap: wrap;
+}
+.freeblock{
+    left: 0;
+}
+.our_priority{
+    left: 0;
+}
+.free_trial_block{
+    left:0;
+}
+
+}
+
+@media screen and (max-width: 970px) {
+.losing{
+    justify-content: center;
+}
+.family_first_frame{
+    display: none;
+}
+.firstart{
+    justify-content: center;
+    text-align: center;
+}
+.freeblock{
+    left: 0;
+}
+.relief_is_near{
+    padding-top: 0;
+}
+.item1:before{
+   position: static;
+}
+.item2::before{
+    position: static;
+}
+.item3::before{
+    position: static;
+}
+.our_priority{
+    left: 0;
+}
+.seen_img{
+    flex-wrap: wrap;
+}
+.free_trial_block{
+    left:0;
+}
+.social_links a:first-of-type{
+font-size:20px;
+height: 70px;
+}
+.section1{
+    background-image:url(#);
+}
+
+}
+
+@media screen and (max-width: 876px) {
+.links{
+    display: block;
+}
+
+}
+
+@media screen and (max-width: 790px) {
+.empathy_created{
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+@media screen and (max-width: 760px) {
+.container_exp{
+    flex-direction: column-reverse;
+}
+.container_exp2{
+    flex-direction: column;
+}
+.container_exp3{
+    flex-direction: column-reverse;
+}
+.container_exp4{
+    flex-direction: column;
+}
+.container_exp5{
+    flex-direction: column-reverse;
+}
+.our_priority{
+    top: 6780px;
+}
+}
+
+@media screen and (max-width: 603px) {
+.firstframe{
+    display: none;
+}
+.secondframe{
+    display: none;
+}
+.thirdframe{
+    display: none;
+}
+.fourthframe{
+    display: none;
+}
+.fifthframe{
+    display: none;
+}
+.exp{
+    text-align: center;
+}
+.exp_text{
+    text-align: center;
+}
+.exp2{
+    text-align: center;
+}
+.exp_text2{
+    text-align: center;
+}
+.exp3{
+    text-align: center;
+}
+.exp_text3{
+    text-align: center;
+}
+.exp4{
+    text-align: center;
+}
+.exp_text4{
+    text-align: center;
+}
+.exp5{
+    text-align: center;
+}
+.exp_text5{
+    text-align: center;
+}
+.our_priority{
+    position: static;
+}
+}
+
+@media screen and (max-width: 456px) {
+#navigation{
+    display: none;
+}
+.free_trial_block{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 395px) {
+.freeblock{
+    top: 750px;
+}
+.company_pages{
+    margin-right: 30px;
+}
+.social_links{
+    flex-wrap: wrap;
+}
+.social_links a:first-of-type{
+height: 60px;
+}
+.social_links img{
+    padding-top: 10px;
+}
+}
