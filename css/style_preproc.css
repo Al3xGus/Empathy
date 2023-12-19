@@ -437,6 +437,12 @@ header nav ul li a {
   list-style-type: none;
   width: 500px;
 }
+@media screen and (max-width: 602px) {
+  .works__list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .works__item {
   color: #1E1928;
@@ -555,6 +561,12 @@ header nav ul li a {
     flex-direction: column-reverse;
   }
 }
+@media screen and (max-width: 602px) {
+  .container_exp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .exp {
   color: #1E1928;
@@ -614,6 +626,12 @@ header nav ul li a {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 602px) {
+  .container_exp2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .secondframe {
   padding-top: 87px;
@@ -669,6 +687,12 @@ header nav ul li a {
 @media screen and (max-width: 760px) {
   .container_exp3 {
     flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 602px) {
+  .container_exp3 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -730,6 +754,12 @@ header nav ul li a {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 602px) {
+  .container_exp4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .fourthframe {
   padding-top: 87px;
@@ -785,6 +815,12 @@ header nav ul li a {
 @media screen and (max-width: 760px) {
   .container_exp5 {
     flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 602px) {
+  .container_exp5 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -988,6 +1024,12 @@ header nav ul li a {
   font-weight: 400;
   line-height: 36px; /* 120% */
   max-width: 828px;
+}
+@media screen and (max-width: 602px) {
+  .feel_bad {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .roger {

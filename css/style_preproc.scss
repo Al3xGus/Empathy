@@ -402,6 +402,10 @@ $main_color: #1E1928;
     .works__list{
         list-style-type: none;
         width: 500px;
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
     .works__item{
         color: $main_color;
@@ -505,6 +509,10 @@ $main_color: #1E1928;
         @media screen and (max-width: 760px){
             flex-direction: column-reverse;
         }
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
     .exp{
         color: $main_color;
@@ -551,6 +559,10 @@ $main_color: #1E1928;
         @media screen and (max-width: 760px){
             flex-direction: column;
         }
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
     .secondframe{
         padding-top: 87px;
@@ -594,6 +606,10 @@ $main_color: #1E1928;
         align-items: center;
         @media screen and (max-width: 760px){
             flex-direction: column-reverse;
+        }
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
         }
     }
     .exp3{
@@ -641,6 +657,10 @@ $main_color: #1E1928;
         @media screen and (max-width: 760px){
             flex-direction: column;
         }
+            @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
     .fourthframe{
         padding-top: 87px;
@@ -684,6 +704,10 @@ $main_color: #1E1928;
         align-items: center;
         @media screen and (max-width: 760px){
             flex-direction: column-reverse;
+        }
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
         }
     }
     .fifthframe{
@@ -858,6 +882,10 @@ $main_color: #1E1928;
         font-weight: 400;
         line-height: 36px; /* 120% */
         max-width: 828px;
+        @media screen and (max-width: 602px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
         
     }
     .roger{
