@@ -36,6 +36,9 @@ $main_color: #1E1928;
       }
     header nav ul li {
         margin-left: 40px;
+        @media screen and (max-width: 456px){
+            margin-left: 0;
+        }
       }
     header nav ul li a {
         text-decoration: none;
