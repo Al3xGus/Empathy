@@ -111,6 +111,9 @@ $main_color: #1E1928;
         }
     }
     .nav__list{
+        @media screen and (max-width: 1209px){
+            margin-right: 15px;
+        }
         @media screen and (max-width: 456px){
             position: relative;
             padding: 0;
@@ -190,6 +193,11 @@ $main_color: #1E1928;
         display: flex;
         list-style: none;
     }
+    .logo{
+        @media screen and (max-width: 1209px){
+            margin-left: 15px;
+        }
+    }
     .item_link{
         text-decoration: none;
         color: $main_color;
@@ -213,6 +221,9 @@ $main_color: #1E1928;
     }
     .firstart{
         max-width: 549px;
+        @media screen and (max-width: 1209px){
+            margin-left: 20px;
+        }
         @media screen and (max-width: 970px){
             justify-content: center;
             text-align: center;
