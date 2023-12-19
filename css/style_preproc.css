@@ -233,6 +233,7 @@ header nav ul li a {
   .firstart {
     justify-content: center;
     text-align: center;
+    margin-left: 0;
   }
 }
 
